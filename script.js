@@ -11,7 +11,7 @@ function game() {
       }
     }
 
-    const playerSelection = prompt('Rock,paper or scissors?');
+    const playerSelection = prompt('Rock,paper or scissor?');
     const computerSelection = computerPlay();
 
     function playRound(playerSelection, computerSelection) {
